@@ -1,0 +1,21 @@
+lol-aram-project/
+│
+├── main.py              # 入口：CLI 輸入、show 結果
+├── riot_api.py          # 專門跟 Riot API 講話
+├── collector.py         # 批次抓資料＋整理成乾淨格式
+├── data_loader.py       # 存/讀 CSV 或 MySQL
+├── analyzer.py          # 勝率計算邏輯
+├── recommender.py       # 推薦誰好選
+└── config.py            # API KEY、常數設定（區域、路徑等）
+
+✅ 幫你建立完整專案骨架
+✅ 幫你寫 4 個 .py 的範例
+✅ 幫你套上假資料讓程式能直接跑
+✅ 幫你改成可讀取 Riot API 資料的真實版本 
+
+
+教我用 mysql-connector 建立連線（Python → MySQL）
+教我如何設計資料表（CREATE TABLE）
+教我 API 抓資料 → insert into MySQL
+教我整個專案的資料流設計（架構圖）
+全部一起做（我幫你一步一步搭專案骨架） 
